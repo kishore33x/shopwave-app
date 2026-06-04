@@ -1,0 +1,122 @@
+[
+  {
+    "ProductName": "Smartwatch",
+    "total_quantity": 811,
+    "total_revenue": 160312.75,
+    "category": "Electronics"
+  },
+  {
+    "ProductName": "Vacuum Cleaner",
+    "total_quantity": 582,
+    "total_revenue": 101753.3,
+    "category": "Home & Kitchen"
+  },
+  {
+    "ProductName": "Air Fryer",
+    "total_quantity": 763,
+    "total_revenue": 101051.38,
+    "category": "Home & Kitchen"
+  },
+  {
+    "ProductName": "Sneakers",
+    "total_quantity": 915,
+    "total_revenue": 86605.89,
+    "category": "Clothing"
+  },
+  {
+    "ProductName": "Wireless Earbuds",
+    "total_quantity": 906,
+    "total_revenue": 78607.77,
+    "category": "Electronics"
+  },
+  {
+    "ProductName": "Fitness Tracker",
+    "total_quantity": 615,
+    "total_revenue": 63483.65,
+    "category": "Sports"
+  },
+  {
+    "ProductName": "Bluetooth Speaker",
+    "total_quantity": 953,
+    "total_revenue": 61877.08,
+    "category": "Electronics"
+  },
+  {
+    "ProductName": "Running Jacket",
+    "total_quantity": 834,
+    "total_revenue": 61352.85,
+    "category": "Clothing"
+  },
+  {
+    "ProductName": "Dumbbell Set",
+    "total_quantity": 638,
+    "total_revenue": 56452.77,
+    "category": "Sports"
+  },
+  {
+    "ProductName": "Hoodie",
+    "total_quantity": 879,
+    "total_revenue": 49273.03,
+    "category": "Clothing"
+  },
+  {
+    "ProductName": "Denim Jeans",
+    "total_quantity": 801,
+    "total_revenue": 35243.99,
+    "category": "Clothing"
+  },
+  {
+    "ProductName": "Laptop Sleeve",
+    "total_quantity": 808,
+    "total_revenue": 34538.45,
+    "category": "Electronics"
+  },
+  {
+    "ProductName": "Hair Dryer",
+    "total_quantity": 573,
+    "total_revenue": 34186.47,
+    "category": "Beauty"
+  },
+  {
+    "ProductName": "Cycling Helmet",
+    "total_quantity": 625,
+    "total_revenue": 33887.06,
+    "category": "Sports"
+  },
+  {
+    "ProductName": "Non-stick Pan",
+    "total_quantity": 798,
+    "total_revenue": 33558.86,
+    "category": "Home & Kitchen"
+  },
+  {
+    "ProductName": "Electric Kettle",
+    "total_quantity": 701,
+    "total_revenue": 26758.53,
+    "category": "Home & Kitchen"
+  },
+  {
+    "ProductName": "Face Serum",
+    "total_quantity": 569,
+    "total_revenue": 24668.98,
+    "category": "Beauty"
+  },
+  {
+    "ProductName": "Yoga Mat",
+    "total_quantity": 670,
+    "total_revenue": 23097.65,
+    "category": "Sports"
+  },
+  {
+    "ProductName": "Storage Container Set",
+    "total_quantity": 678,
+    "total_revenue": 21308.94,
+    "category": "Home & Kitchen"
+  },
+  {
+    "ProductName": "Smartphone Case",
+    "total_quantity": 803,
+    "total_revenue": 19879.64,
+    "category": "Electronics"
+  }
+]

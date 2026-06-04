@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  shopwave:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+      - ./ml:/app/ml
+    environment:
+      - NODE_ENV=production

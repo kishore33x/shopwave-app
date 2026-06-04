@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Electronics",
+    "revenue": 355215.69
+  },
+  {
+    "category": "Home & Kitchen",
+    "revenue": 284431.01
+  },
+  {
+    "category": "Clothing",
+    "revenue": 245688.86
+  },
+  {
+    "category": "Sports",
+    "revenue": 192360.19
+  },
+  {
+    "category": "Beauty",
+    "revenue": 101573.3
+  }
+]

@@ -1,0 +1,20 @@
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# ML artifacts
+ml/models/*.joblib
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
