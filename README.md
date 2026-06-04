@@ -1,4 +1,5 @@
-🚀 ShopWave – E-Commerce Intelligence & Sales Forecasting Platform
+##🚀 ShopWave – E-Commerce Intelligence & Sales Forecasting Platform
+
 📌 Overview
 ShopWave is a full-stack E-Commerce Intelligence Platform that combines modern web technologies, data analytics, and machine learning to help businesses gain actionable insights from their sales data.
 
