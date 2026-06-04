@@ -1,4 +1,6 @@
-export default function ChartCard({
+import { memo } from "react";
+
+function ChartCard({
   title,
   subtitle,
   children
@@ -18,3 +20,5 @@ export default function ChartCard({
     </section>
   );
 }
+
+export default memo(ChartCard);

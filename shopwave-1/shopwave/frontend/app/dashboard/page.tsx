@@ -5,9 +5,12 @@ import { useEffect, useMemo, useState } from "react";
 import { DollarSign, Package, ShoppingCart } from "lucide-react";
 import { Line, LineChart, ResponsiveContainer } from "recharts";
 
-import AIInsights from "@/components/AIInsights";
-import SalesTrendChart from "@/charts/SalesTrendChart";
-import CategoryRevenueChart from "@/charts/CategoryRevenueChart";
+import dynamic from "next/dynamic";
+import PredictionSummary from "@/components/PredictionSummary";
+
+const AIInsights = dynamic(() => import("@/components/AIInsights"), { ssr: false });
+const SalesTrendChart = dynamic(() => import("@/charts/SalesTrendChart"), { ssr: false });
+const CategoryRevenueChart = dynamic(() => import("@/charts/CategoryRevenueChart"), { ssr: false });
 import ChartCard from "@/components/ChartCard";
 import StatCard from "@/components/StatCard";
 import { usePredictions } from "@/hooks/usePredictions";
@@ -179,28 +182,7 @@ export default function DashboardPage() {
           </div>
         </section>
 
-        <section className="panel rounded-2xl p-5">
-          <div className="mb-3">
-            <h2 className="font-display text-lg font-semibold text-white">Prediction Summary</h2>
-            <p className="text-sm text-gray-300">Next 7 days predicted revenue</p>
-          </div>
-          <p className="mb-4 text-3xl font-semibold text-white">{formatCurrency(next7DayRevenue)}</p>
-          {isPredictionsLoading ? <p className="mb-2 text-xs text-slate-300">Loading predictions...</p> : null}
-          <div className="h-20">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={next7Days}>
-                <Line
-                  type="monotone"
-                  dataKey="predicted_revenue"
-                  stroke="#0ea5e9"
-                  strokeWidth={2.5}
-                  dot={false}
-                  isAnimationActive
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-        </section>
+        <PredictionSummary predictions={next7Days} isLoading={isPredictionsLoading} />
       </section>
     </div>
   );

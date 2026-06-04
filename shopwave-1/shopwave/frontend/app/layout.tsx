@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Shopwave | Klyzer",
+  title: "Shopwave | E-commerce Analytics Dashboard",
   description: "E-commerce analytics dashboard for trend detection and sales forecasting"
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/dashboard" className="font-semibold text-cyan-300 transition-all duration-200 hover:text-cyan-200">
                 Shopwave
               </Link>{" "}
-              by Team Klyzer
+              by Kishore
             </footer>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import { LucideIcon } from "lucide-react";
+import { memo } from "react";
 
 type StatCardProps = {
   title: string;
@@ -7,7 +8,7 @@ type StatCardProps = {
   icon?: LucideIcon;
 };
 
-export default function StatCard({ title, value, helper, icon: Icon }: StatCardProps) {
+function StatCard({ title, value, helper, icon: Icon }: StatCardProps) {
   return (
     <div className="panel relative overflow-hidden rounded-2xl p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-lg">
       <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-cyan-400/0 via-cyan-300/80 to-indigo-300/0" />
@@ -26,3 +27,5 @@ export default function StatCard({ title, value, helper, icon: Icon }: StatCardP
     </div>
   );
 }
+
+export default memo(StatCard);

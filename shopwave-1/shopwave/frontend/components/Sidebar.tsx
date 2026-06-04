@@ -17,7 +17,6 @@ export default function Sidebar() {
   return (
     <aside className="hidden w-64 shrink-0 border-r border-white/10 bg-slate-900/95 p-6 backdrop-blur-md transition-all duration-200 lg:block">
       <p className="font-display text-2xl font-bold text-white">Shopwave</p>
-      <p className="mt-1 text-xs uppercase tracking-[0.22em] text-slate-300">Team Klyzer</p>
 
       <nav className="mt-8 space-y-2">
         {navItems.map((item) => {
